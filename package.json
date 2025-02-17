@@ -1,16 +1,25 @@
 {
-  "name": "nuxt-app",
+  "name": "yatpid",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "dev (host)": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.13.0",
+    "@catppuccin/palette": "^1.4.0",
+    "@iarna/toml": "^2.2.5",
+    "@nuxt/devtools": "2.1.0",
+    "@nuxt/fonts": "^0.10.0",
+    "@nuxt/kit": "^3.15.4",
+    "@nuxtjs/color-mode": "^3.5.1",
+    "nuxt": "^3.15.4",
+    "prettier-plugin-toml": "^2.0.1",
+    "vite": ">=6.0",
     "vue": "latest",
     "vue-router": "latest"
   }

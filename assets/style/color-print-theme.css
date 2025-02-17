@@ -1,0 +1,10 @@
+.print-theme {
+  --c-bg: #fff;
+  --c-fg: #000;
+  --c-primary: #007bff;
+  --c-secondary: #6c757d;
+  --c-success: #28a745;
+  --c-info: #17a2b8;
+  --c-warning: #ffc107;
+  --c-danger: #dc3545;
+}

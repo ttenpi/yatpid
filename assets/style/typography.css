@@ -1,0 +1,93 @@
+:root {
+  --measure: 70ch;
+  --font-size-adapt: 0.333vw;
+  --line-height: 1.6;
+  --font-body: "Figtree", sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  font-size: var(--s0);
+}
+
+/* fonts */
+
+body {
+  font-family: var(--font-body);
+  font-weight: 420;
+  /* 1rem at minimum, so it never drops below the system/browser/user defined value */
+  line-height: var(--line-height);
+}
+
+/* headers */
+
+h1 {
+  font-size: var(--s4);
+}
+
+h2 {
+  font-size: var(--s3);
+}
+
+h3 {
+  font-size: var(--s2);
+}
+
+h4 {
+  font-size: var(--s1);
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  color: var(--color-primary);
+  font-family: var(--font-display);
+  font-weight: 666;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+:is(h1, h2, h3, h4) a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* paragraphs */
+
+p {
+  text-wrap: pretty;
+}
+
+/* links */
+
+a {
+  color: var(--color-secondary);
+  text-decoration-color: var(--ctp-subtext0);
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--border-thin);
+  text-decoration-skip-ink: all;
+  text-underline-offset: 0.25em;
+  transition: text-underline-offset 0.2s ease-in-out,
+    text-decoration-color 0.8s ease-in-out;
+}
+
+a:hover {
+  /* text-decoration-thickness: from-font; */
+  text-underline-offset: 0.05em;
+  text-decoration-color: var(--color-secondary);
+}
+
+/* code, pre */
+
+code,
+pre {
+  font-family: var(--font-code);
+}
+
+pre code .line + .line {
+  line-height: 1.5;
+  margin-block-start: 0;
+}
+
+pre {
+  font-size: var(--s-1);
+}

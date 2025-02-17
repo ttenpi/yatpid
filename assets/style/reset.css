@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  /* https://defensivecss.dev/tip/flexbox-min-content-size/ */
+  /* https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/#the-minimum-size-gotcha-11 */
+  /* min-inline-size: 0; */
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}
