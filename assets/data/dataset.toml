@@ -43,6 +43,10 @@ semanticCategory = ["critters"]
 [words.definitions]
 en = "reptile, amphibian, scaly animal"
 nl = "hagedis, reptiel, geschubd dier"
+[[words.example]]
+tok = "akesi li ken jo e selo kiwen"
+en = "Reptiles can have rocky scales."
+nl = "Reptielen kunnen harde schubben hebben."
 
 [[words]]
 lemma = "ala"
