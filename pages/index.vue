@@ -7,8 +7,7 @@
       <div v-for="(word,key) in dictionary" :key="key">
         <dl>
           <dt><NuxtLink :to="`/${key}`">{{ word.lemma }}</NuxtLink></dt>
-          <dd v-if="word.definitions && word.definitions.en">(EN) {{ word.definitions.en }}</dd>
-          <dd v-if="word.definitions && word.definitions.nl">(NL) {{ word.definitions.nl }}</dd>
+          <dd v-if="word.definitions && word.definitions.en">{{ word.definitions.en }}</dd>
         </dl>
       </div>
     </div>
@@ -21,7 +20,6 @@ interface Word {
   subtitle?: string;
   definitions?: {
     en?: string;
-    nl?: string;
   };
 }
 

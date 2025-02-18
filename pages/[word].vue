@@ -15,6 +15,9 @@
         {{ wordData.lemma }}
         <em v-if="wordData.subtitle">({{ wordData.subtitle }})</em>
       </dt>
+      <dd v-if="wordData && wordData.semanticCategory">
+        ({{ wordData.semanticCategory }})
+      </dd>
       <dd v-if="wordData && wordData.definitions && wordData.definitions.en">
         (EN) {{ wordData.definitions.en }}
       </dd>
@@ -29,6 +32,7 @@
 interface WordData {
   lemma?: string;
   subtitle?: string;
+  semanticCategory?: Array<string>;
   definitions?: {
     en?: string;
     nl?: string;
