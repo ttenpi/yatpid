@@ -946,7 +946,7 @@ nl = "geweldig; kracht, energie; intens"
 
 [[words]]
 lemma = "weka"
-semanticCategory = ["locating","state"]
+semanticCategory = ["locating", "state"]
 [words.definitions]
 en = "away, absent, distant; remove, rid"
 nl = "weg, afwezig, ver weg; verwijderd"
