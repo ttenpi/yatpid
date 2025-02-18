@@ -1,0 +1,49 @@
+{
+  "[css][scss][less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript][javascriptreact][typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "css.format.braceStyle": "collapse",
+  "css.format.enable": true,
+  "css.format.newlineBetweenRules": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/node_modules": true
+  },
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "html.format.enable": true,
+  "html.format.extraLiners": "head, body, /html",
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.templating": true,
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 60,
+  "typescript.autoClosingTags": true,
+  "typescript.format.enable": true,
+  "typescript.format.insertSpaceAfterCommaDelimiter": true,
+  "typescript.format.semicolons": "remove",
+  "vue.autoInsert.bracketSpacing": true,
+  "vue.format.script.initialIndent": true,
+  "vue.format.style.initialIndent": true,
+  "vue.format.template.initialIndent": true,
+  "vue.format.wrapAttributes": "auto"
+}
