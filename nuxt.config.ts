@@ -24,4 +24,7 @@ export default defineNuxtConfig({
       allowedHosts: [".local"],
     },
   },
+  nitro: {
+    static: true,
+  },
 });
