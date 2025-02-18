@@ -2,7 +2,7 @@
   <div>
     <h1>Dictionary</h1>
     <p v-if="status === 'pending'">Loading...</p>
-    <p v-else-if="status === 'error'">Error: {{ error }}</p>
+    <p v-else-if="status === 'error'">Error: <code>{{ error }}</code></p>
     <div v-else>
       <div v-for="(word,key) in dictionary" :key="key">
         <dl>
