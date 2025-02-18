@@ -30,800 +30,930 @@ sight = "zicht"
 state = "toestand"
 things = "dingen"
 
-
 [[words]]
-  lemma = "a"
-  category = ["evoke"]
-  [words.definitions]
-    en = "(emphasis/emotion interjection); ah, oh, haha, eh, um"
-    nl = "(klemtoon/emotie tussenwerpsel); ah, oh, haha, eh, um"
+lemma = "a"
+category = ["evoke"]
+[words.definitions]
+en = "(emphasis/emotion interjection); ah, oh, haha, eh, um"
+nl = "(klemtoon/emotie tussenwerpsel); ah, oh, haha, eh, um"
 
 [[words]]
-  lemma = "akesi"
-  [words.definitions]
-    en = "reptile, amphibian, scaly animal"
-    nl = "hagedis, reptiel, geschubd dier"
+lemma = "akesi"
+category = ["critters"]
+[words.definitions]
+en = "reptile, amphibian, scaly animal"
+nl = "hagedis, reptiel, geschubd dier"
 
 [[words]]
-  lemma = "ala"
-  [words.definitions]
-    en = "not, nothing, no; 0; (negation); (yes-no question)"
-    nl = "niet, niets, nee; 0; (ontkenning); (ja-nee-vraag)"
+lemma = "ala"
+category = ["counting"]
+[words.definitions]
+en = "not, nothing, no; 0; (negation); (yes-no question)"
+nl = "niet, niets, nee; 0; (ontkenning); (ja-nee-vraag)"
 
 [[words]]
-  lemma = "alasa"
-  [words.definitions]
-    en = "hunt, forage, seek, attempt, try"
-    nl = "jagen, verzamelen, zoeken, proberen"
+lemma = "alasa"
+category = ["activity"]
+[words.definitions]
+en = "hunt, forage, seek, attempt, try"
+nl = "jagen, verzamelen, zoeken, proberen"
 
 [[words]]
-  lemma = "ale"
-  [words.definitions]
-    en = "all, everything, entirety; any; 100"
-    nl = "alles, geheel; elk, ieder; 100"
+lemma = "ale"
+category = ["counting"]
+[words.definitions]
+en = "all, everything, entirety; any; 100"
+nl = "alles, geheel; elk, ieder; 100"
 
 [[words]]
-  lemma = "anpa"
-  [words.definitions]
-    en = "bottom, underside; below; defeat, humble, lowly"
-    nl = "onderkant, beneden, laag; nederlaag, nederlaag, bescheiden"
+lemma = "anpa"
+category = ["locating"]
+[words.definitions]
+en = "bottom, underside; below; defeat, humble, lowly"
+nl = "onderkant, beneden, laag; nederlaag, nederlaag, bescheiden"
 
 [[words]]
-  lemma = "ante"
-  [words.definitions]
-    en = "different, change, changed, other"
-    nl = "anders, veranderd, verandering"
+lemma = "ante"
+category = ["descriptions", "state"]
+[words.definitions]
+en = "different, change, changed, other"
+nl = "anders, veranderd, verandering"
 
 [[words]]
-  lemma = "anu"
-  [words.definitions]
-    en = "(possibility marker), or"
-    nl = "(mogelijkheidsmarkering), of"
+lemma = "anu"
+category = ["connection"]
+[words.definitions]
+en = "(possibility marker), or"
+nl = "(mogelijkheidsmarkering), of"
 
 [[words]]
-  lemma = "aoeui"
-  subtitle = "haha you found an easter egg"
+lemma = "aoeui"
+subtitle = "haha you found an easter egg"
 
 [[words]]
-  lemma = "awen"
-  [words.definitions]
-    en = "stay, remain, wait; protect, save; to continue"
-    nl = "stand houden, wachten, blijven; beschermen, redden; doorgaan"
+lemma = "awen"
+category = ["state"]
+[words.definitions]
+en = "stay, remain, wait; protect, save; to continue"
+nl = "stand houden, wachten, blijven; beschermen, redden; doorgaan"
 
 [[words]]
-  lemma = "e"
-  [words.definitions]
-    en = "(direct object marker)"
-    nl = "(lijdend voorwerpmarkering)"
+lemma = "e"
+category = ["connection"]
+[words.definitions]
+en = "(direct object marker)"
+nl = "(lijdend voorwerpmarkering)"
 
 [[words]]
-  lemma = "en"
-  [words.definitions]
-    en = "(multiple subject marker)"
-    nl = "(meervoudig onderwerpmarkering)"
+lemma = "en"
+category = ["connection"]
+[words.definitions]
+en = "(multiple subject marker)"
+nl = "(meervoudig onderwerpmarkering)"
 
 [[words]]
-  lemma = "esun"
-  [words.definitions]
-    en = "market, shop; trade, buy, sell"
-    nl = "markt, winkel; ruil, koop, verkoop"
+lemma = "esun"
+category = ["necessities", "activity"]
+[words.definitions]
+en = "market, shop; trade, buy, sell"
+nl = "markt, winkel; ruil, koop, verkoop"
 
 [[words]]
-  lemma = "ijo"
-  [words.definitions]
-    en = "thing, object, matter"
-    nl = "ding, object, voorwerp"
+lemma = "ijo"
+category = ["things"]
+[words.definitions]
+en = "thing, object, matter"
+nl = "ding, object, voorwerp"
 
 [[words]]
-  lemma = "ike"
-  [words.definitions]
-    en = "bad, negative, unpleasant, cringe, complex, harmful, unneeded"
-    nl = "slecht, negatief, onaangenaam, moeilijk, schadelijk, onnodig"
+lemma = "ike"
+category = ["descriptions"]
+[words.definitions]
+en = "bad, negative, unpleasant, cringe, complex, harmful, unneeded"
+nl = "slecht, negatief, onaangenaam, moeilijk, schadelijk, onnodig"
 
 [[words]]
-  lemma = "ilo"
-  [words.definitions]
-    en = "tool, machine, device, instrument"
-    nl = "gereedschap, machine, apparaat, instrument"
+lemma = "ilo"
+category = ["things"]
+[words.definitions]
+en = "tool, machine, device, instrument"
+nl = "gereedschap, machine, apparaat, instrument"
 
 [[words]]
-  lemma = "insa"
-  [words.definitions]
-    en = "inside, center, between, middle; organ, stomach"
-    nl = "binnen, midden; orgaan, maag"
+lemma = "insa"
+category = ["locating", "body"]
+[words.definitions]
+en = "inside, center, between, middle; organ, stomach"
+nl = "binnen, midden; orgaan, maag"
 
 [[words]]
-  lemma = "jaki"
-  [words.definitions]
-    en = "disgusting, unclean, toxic"
-    nl = "walgeijk, vies, giftig"
+lemma = "jaki"
+category = ["descriptions"]
+[words.definitions]
+en = "disgusting, unclean, toxic"
+nl = "walgeijk, vies, giftig"
 
 [[words]]
-  lemma = "jan"
-  [words.definitions]
-    en = "person, somebody"
-    nl = "persoon, iemand"
+lemma = "jan"
+category = ["people"]
+[words.definitions]
+en = "person, somebody"
+nl = "persoon, iemand"
 
 [[words]]
-  lemma = "jelo"
-  [words.definitions]
-    en = "yellow, yellowish color"
-    nl = "geel, geelachtige kleur"
+lemma = "jelo"
+category = ["sight"]
+[words.definitions]
+en = "yellow, yellowish color"
+nl = "geel, geelachtige kleur"
 
 [[words]]
-  lemma = "jo"
-  [words.definitions]
-    en = "have, hold, carry, contain"
-    nl = "hebben, dragen, bevatten"
+lemma = "jo"
+category = ["activity"]
+[words.definitions]
+en = "have, hold, carry, contain"
+nl = "hebben, dragen, bevatten"
 
 [[words]]
-  lemma = "kala"
-  [words.definitions]
-    en = "fish, marine animal"
-    nl = "vis, zeedier"
+lemma = "kala"
+category = ["critters"]
+[words.definitions]
+en = "fish, marine animal"
+nl = "vis, zeedier"
 
 [[words]]
-  lemma = "kalama"
-  [words.definitions]
-    en = "to make noise; sound"
-    nl = "geluid maken; klank"
+lemma = "kalama"
+category = ["activity"]
+[words.definitions]
+en = "to make noise; sound"
+nl = "geluid maken; klank"
 
 [[words]]
-  lemma = "kama"
-  [words.definitions]
-    en = "arrive, summon; future; become"
-    nl = "aankomen; toekomst; worden"
+lemma = "kama"
+category = ["state"]
+[words.definitions]
+en = "arrive, summon; future; become"
+nl = "aankomen; toekomst; worden"
 
 [[words]]
-  lemma = "kasi"
-  [words.definitions]
-    en = "plant, vegetation; herb, leaf"
-    nl = "plant, gewas; kruid, blad"
+lemma = "kasi"
+category = ["elements"]
+[words.definitions]
+en = "plant, vegetation; herb, leaf"
+nl = "plant, gewas; kruid, blad"
 
 [[words]]
-  lemma = "ken"
-  [words.definitions]
-    en = "can, may, ability; possible; allow, enable; to be able to"
-    nl = "kunnen, vermogen, mogen; mogelijk, toestaan; in staat zijn"
+lemma = "ken"
+category = ["state"]
+[words.definitions]
+en = "can, may, ability; possible; allow, enable; to be able to"
+nl = "kunnen, vermogen, mogen; mogelijk, toestaan; in staat zijn"
 
 [[words]]
-  lemma = "kepeken"
-  [words.definitions]
-    en = "using, with, by means of"
-    nl = "gebruiken, met behulp van"
+lemma = "kepeken"
+category = ["activity"]
+[words.definitions]
+en = "using, with, by means of"
+nl = "gebruiken, met behulp van"
 
 [[words]]
-  lemma = "kijetesantakalu"
-  [words.definitions]
-    en = "raccoon, procyonid, musteloid"
-    nl = "wasbeer, stinkdier, marters, ..."
+lemma = "kijetesantakalu"
+category = ["critters"]
+[words.definitions]
+en = "raccoon, procyonid, musteloid"
+nl = "wasbeer, stinkdier, marters, ..."
 
 [[words]]
-  lemma = "kili"
-  [words.definitions]
-    en = "fruit, vegetable"
-    nl = "fruit, vrucht, groente"
+lemma = "kili"
+category = ["elements"]
+[words.definitions]
+en = "fruit, vegetable"
+nl = "fruit, vrucht, groente"
 
 [[words]]
-  lemma = "kin"
-  [words.definitions]
-    en = "too, also"
-    nl = "ook, tevens, bovendien"
+lemma = "kin"
+category = ["connection"]
+[words.definitions]
+en = "too, also"
+nl = "ook, tevens, bovendien"
 
 [[words]]
-  lemma = "kipisi"
-  [words.definitions]
-    en = "cut, split, slice; piece, part"
-    nl = "snede, splitsen, splijten; stuk, deel"
+lemma = "kipisi"
+category = ["activity"]
+[words.definitions]
+en = "cut, split, slice; piece, part"
+nl = "snede, splitsen, splijten; stuk, deel"
 
 [[words]]
-  lemma = "kiwen"
-  [words.definitions]
-    en = "hard object, stone, rock, metal"
-    nl = "hard voorwerp, steen, rots, metaal"
+lemma = "kiwen"
+category = ["descriptions", "elements"]
+[words.definitions]
+en = "hard object, stone, rock, metal"
+nl = "hard voorwerp, steen, rots, metaal"
 
 [[words]]
-  lemma = "ko"
-  [words.definitions]
-    en = "clay, dough, something pliable, powder, sand"
-    nl = "klei, deeg, poeder; een kneedbaar iets, zand"
+lemma = "ko"
+category = ["descriptions"]
+[words.definitions]
+en = "clay, dough, something pliable, powder, sand"
+nl = "klei, deeg, poeder; een kneedbaar iets, zand"
 
 [[words]]
-  lemma = "kon"
-  [words.definitions]
-    en = "air, breath, wind; spirit, soul"
-    nl = "lucht, adem, wind; geest, ziel"
+lemma = "kon"
+category = ["elements"]
+[words.definitions]
+en = "air, breath, wind; spirit, soul"
+nl = "lucht, adem, wind; geest, ziel"
 
 [[words]]
-  lemma = "ku"
-  [words.definitions]
-    en = "to interact with Toki Pona Dictionary by Sonja Lang"
-    nl = "gebruik maken van Toki Pona Dictionary van Sonja Lang"
+lemma = "ku"
+category = ["activity"]
+[words.definitions]
+en = "to interact with Toki Pona Dictionary by Sonja Lang"
+nl = "gebruik maken van Toki Pona Dictionary van Sonja Lang"
 
 [[words]]
-  lemma = "kule"
-  [words.definitions]
-    en = "color; aspect of sense, timbre, pitch, flavor, texture; queer"
-    nl = "kleur; zintuiglijk aspect, toon, klankkleur, smaak, textuur; queer"
+lemma = "kule"
+category = ["sight"]
+[words.definitions]
+en = "color; aspect of sense, timbre, pitch, flavor, texture; queer"
+nl = "kleur; zintuiglijk aspect, toon, klankkleur, smaak, textuur; queer"
 
 [[words]]
-  lemma = "kulupu"
-  [words.definitions]
-    en = "group, community, company, collection, team"
-    nl = "groep, gemeenschap, organisatie, verzameling, team"
+lemma = "kulupu"
+category = ["people"]
+[words.definitions]
+en = "group, community, company, collection, team"
+nl = "groep, gemeenschap, organisatie, verzameling, team"
 
 [[words]]
-  lemma = "kute"
-  [words.definitions]
-    en = "ear; hear, listen"
-    nl = "oor; horen, luisteren"
+lemma = "kute"
+category = ["body"]
+[words.definitions]
+en = "ear; hear, listen"
+nl = "oor; horen, luisteren"
 
 [[words]]
-  lemma = "la"
-  [words.definitions]
-    en = "(context marker)"
-    nl = "(contextmarkering)"
+lemma = "la"
+category = ["connection"]
+[words.definitions]
+en = "(context marker)"
+nl = "(contextmarkering)"
 
 [[words]]
-  lemma = "lape"
-  [words.definitions]
-    en = "sleep, rest"
-    nl = "slapen, rusten"
+lemma = "lape"
+category = ["activity"]
+[words.definitions]
+en = "sleep, rest"
+nl = "slapen, rusten"
 
 [[words]]
-  lemma = "laso"
-  [words.definitions]
-    en = "blue, green, turquoise, indigo"
-    nl = "blauw, groen, turkoois, indigo"
+lemma = "laso"
+category = ["sight"]
+[words.definitions]
+en = "blue, green, turquoise, indigo"
+nl = "blauw, groen, turkoois, indigo"
 
 [[words]]
-  lemma = "lawa"
-  [words.definitions]
-    en = "head, mind; lead; leader; rule"
-    nl = "hoofd, hersenen; leiden; regel"
+lemma = "lawa"
+category = ["body", "descriptions"]
+[words.definitions]
+en = "head, mind; lead; leader; rule"
+nl = "hoofd, hersenen; leiden; regel"
 
 [[words]]
-  lemma = "leko"
-  [words.definitions]
-    en = "square, cube, block, brick"
-    nl = "vierkant, kubus, blok; trap"
+lemma = "leko"
+category = ["things"]
+[words.definitions]
+en = "square, cube, block, brick"
+nl = "vierkant, kubus, blok; trap"
 
 [[words]]
-  lemma = "len"
-  [words.definitions]
-    en = "cloth, fabric; hidden, private"
-    nl = "kleed, kleding, textiel; priv"
+lemma = "len"
+category = ["necessities"]
+[words.definitions]
+en = "cloth, fabric; hidden, private"
+nl = "kleed, kleding, textiel; priv"
 
 [[words]]
-  lemma = "lete"
-  [words.definitions]
-    en = "cold, cool, frozen; raw"
-    nl = "koud, koel, bevroren; rauw"
+lemma = "lete"
+category = ["elements"]
+[words.definitions]
+en = "cold, cool, frozen; raw"
+nl = "koud, koel, bevroren; rauw"
 
 [[words]]
-  lemma = "li"
-  [words.definitions]
-    en = "(predicate marker)"
-    nl = "(gezegdemarkering)"
+lemma = "li"
+category = ["connection"]
+[words.definitions]
+en = "(predicate marker)"
+nl = "(gezegdemarkering)"
 
 [[words]]
-  lemma = "lili"
-  [words.definitions]
-    en = "little, small, short; few; young"
-    nl = "klein, kort, weinig; jong"
+lemma = "lili"
+category = ["descriptions"]
+[words.definitions]
+en = "little, small, short; few; young"
+nl = "klein, kort, weinig; jong"
 
 [[words]]
-  lemma = "linja"
-  [words.definitions]
-    en = "long and flexible thing, rope, hair, line, string"
-    nl = "lang buigzaam ding, touw, haar, lijn"
+lemma = "linja"
+category = ["things"]
+[words.definitions]
+en = "long and flexible thing, rope, hair, line, string"
+nl = "lang buigzaam ding, touw, haar, lijn"
 
 [[words]]
-  lemma = "lipu"
-  [words.definitions]
-    en = "flat object, paper, document, card, website"
-    nl = "plat voorwerp, papier, kaart, document, website"
+lemma = "lipu"
+category = ["things"]
+[words.definitions]
+en = "flat object, paper, document, card, website"
+nl = "plat voorwerp, papier, kaart, document, website"
 
 [[words]]
-  lemma = "loje"
-  [words.definitions]
-    en = "red, reddish color"
-    nl = "rood, roodachtige kleur"
+lemma = "loje"
+category = ["sight"]
+[words.definitions]
+en = "red, reddish color"
+nl = "rood, roodachtige kleur"
 
 [[words]]
-  lemma = "lon"
-  [words.definitions]
-    en = "located at; real, true, exist"
-    nl = "bevindt zich op; echt, bestaat"
+lemma = "lon"
+category = ["locating", "connection"]
+[words.definitions]
+en = "located at; real, true, exist"
+nl = "bevindt zich op; echt, bestaat"
 
 [[words]]
-  lemma = "luka"
-  [words.definitions]
-    en = "hand, arm; 5"
-    nl = "hand, arm; 5"
+lemma = "luka"
+category = ["body", "counting"]
+[words.definitions]
+en = "hand, arm; 5"
+nl = "hand, arm; 5"
 
 [[words]]
-  lemma = "lukin"
-  [words.definitions]
-    en = "look, see, examine; eye; try"
-    nl = "zien, kijken, lezen; oog; proberen"
+lemma = "lukin"
+category = ["body", "sight"]
+[words.definitions]
+en = "look, see, examine; eye; try"
+nl = "zien, kijken, lezen; oog; proberen"
 
 [[words]]
-  lemma = "lupa"
-  [words.definitions]
-    en = "door, window, hole, pit, portal"
-    nl = "deur, raam, gat, put, portaal"
+lemma = "lupa"
+category = ["things"]
+[words.definitions]
+en = "door, window, hole, pit, portal"
+nl = "deur, raam, gat, put, portaal"
 
 [[words]]
-  lemma = "ma"
-  [words.definitions]
-    en = "earth, land, soil; country, territory"
-    nl = "aarde, land, bodem; grondgebied"
+lemma = "ma"
+category = ["elements"]
+[words.definitions]
+en = "earth, land, soil; country, territory"
+nl = "aarde, land, bodem; grondgebied"
 
 [[words]]
-  lemma = "mama"
-  [words.definitions]
-    en = "parent, caretaker; creator"
-    nl = "ouder, verzorger; oorsprong"
+lemma = "mama"
+category = ["people"]
+[words.definitions]
+en = "parent, caretaker; creator"
+nl = "ouder, verzorger; oorsprong"
 
 [[words]]
-  lemma = "mani"
-  [words.definitions]
-    en = "money, currency; valuables"
-    nl = "geld, valuta; vee"
+lemma = "mani"
+category = ["necessities"]
+[words.definitions]
+en = "money, currency; valuables"
+nl = "geld, valuta; vee"
 
 [[words]]
-  lemma = "meli"
-  [words.definitions]
-    en = "female, feminine"
-    nl = "vrouw, vrouwelijk"
+lemma = "meli"
+category = ["people"]
+[words.definitions]
+en = "female, feminine"
+nl = "vrouw, vrouwelijk"
 
 [[words]]
-  lemma = "mi"
-  [words.definitions]
-    en = "(1st-person) I, me, we, us"
-    nl = "(1e persoon) ik, mij, wij, ons"
+lemma = "mi"
+category = ["people"]
+[words.definitions]
+en = "(1st-person) I, me, we, us"
+nl = "(1e persoon) ik, mij, wij, ons"
 
 [[words]]
-  lemma = "mije"
-  [words.definitions]
-    en = "male, masculine"
-    nl = "man, mannelijk"
+lemma = "mije"
+category = ["people"]
+[words.definitions]
+en = "male, masculine"
+nl = "man, mannelijk"
 
 [[words]]
-  lemma = "misikeke"
-  [words.definitions]
-    en = "medication, medical practice"
-    nl = "medicijn, medisch"
+lemma = "misikeke"
+category = ["necessities"]
+[words.definitions]
+en = "medication, medical practice"
+nl = "medicijn, medisch"
 
 [[words]]
-  lemma = "moku"
-  [words.definitions]
-    en = "eat, drink; food"
-    nl = "eten, drinken"
+lemma = "moku"
+category = ["necessities"]
+[words.definitions]
+en = "eat, drink; food"
+nl = "eten, drinken"
 
 [[words]]
-  lemma = "moli"
-  [words.definitions]
-    en = "death, dead, dying; kill, murder"
-    nl = "dood, sterven; doden, moord"
+lemma = "moli"
+category = ["ideas"]
+[words.definitions]
+en = "death, dead, dying; kill, murder"
+nl = "dood, sterven; doden, moord"
 
 [[words]]
-  lemma = "monsi"
-  [words.definitions]
-    en = "behind, back, rear"
-    nl = "achterkant, rug, kont"
+lemma = "monsi"
+category = ["locating", "body"]
+[words.definitions]
+en = "behind, back, rear"
+nl = "achterkant, rug, kont"
 
 [[words]]
-  lemma = "monsuta"
-  [words.definitions]
-    en = "monster, fear, scary, threat, danger"
-    nl = "monster, angst, bedreiging, gevaar"
+lemma = "monsuta"
+category = ["ideas"]
+[words.definitions]
+en = "monster, fear, scary, threat, danger"
+nl = "monster, angst, bedreiging, gevaar"
 
 [[words]]
-  lemma = "mu"
-  [words.definitions]
-    en = "(animal noise/onomatopoeia)"
-    nl = "(dierengeluid/klanknabootsing tussenwerpsel)"
+lemma = "mu"
+category = ["evoke"]
+[words.definitions]
+en = "(animal noise/onomatopoeia)"
+nl = "(dierengeluid/klanknabootsing tussenwerpsel)"
 
 [[words]]
-  lemma = "mun"
-  [words.definitions]
-    en = "moon, night sky object, star"
-    nl = "maan, hemelobject, ster"
+lemma = "mun"
+category = ["elements"]
+[words.definitions]
+en = "moon, night sky object, star"
+nl = "maan, hemelobject, ster"
 
 [[words]]
-  lemma = "musi"
-  [words.definitions]
-    en = "entertainment, fun, game, art, amusing, interesting"
-    nl = "vermaak, plezier, spel, kunst, lol, interessant"
+lemma = "musi"
+category = ["ideas"]
+[words.definitions]
+en = "entertainment, fun, game, art, amusing, interesting"
+nl = "vermaak, plezier, spel, kunst, lol, interessant"
 
 [[words]]
-  lemma = "mute"
-  [words.definitions]
-    en = "many, several; very; 20"
-    nl = "veel, meerdere, zeer; 20"
+lemma = "mute"
+category = ["counting"]
+[words.definitions]
+en = "many, several; very; 20"
+nl = "veel, meerdere, zeer; 20"
 
 [[words]]
-  lemma = "n"
-  [words.definitions]
-    en = "(thinking interjection); hm, uh"
-    nl = "(denkend tussenwerpsel), hm, uh"
+lemma = "n"
+category = ["evoke"]
+[words.definitions]
+en = "(thinking interjection); hm, uh"
+nl = "(denkend tussenwerpsel), hm, uh"
 
 [[words]]
-  lemma = "namako"
-  [words.definitions]
-    en = "spice, ornament; extra, additional"
-    nl = "kruid, siersel; extra, toevoeging"
+lemma = "namako"
+category = ["things", "descriptions"]
+[words.definitions]
+en = "spice, ornament; extra, additional"
+nl = "kruid, siersel; extra, toevoeging"
 
 [[words]]
-  lemma = "nanpa"
-  [words.definitions]
-    en = "number, -th"
-    nl = "nummer, aantal, -e"
+lemma = "nanpa"
+category = ["counting"]
+[words.definitions]
+en = "number, -th"
+nl = "nummer, aantal, -e"
 
 [[words]]
-  lemma = "nasa"
-  [words.definitions]
-    en = "strange, unusual, silly, unexpected; drunk"
-    nl = "vreemd, ongewoon, gek; onverwacht; dronken"
+lemma = "nasa"
+category = ["descriptions"]
+[words.definitions]
+en = "strange, unusual, silly, unexpected; drunk"
+nl = "vreemd, ongewoon, gek; onverwacht; dronken"
 
 [[words]]
-  lemma = "nasin"
-  [words.definitions]
-    en = "method, doctrine; road, way"
-    nl = "methode, leer, manier; weg, pad"
+lemma = "nasin"
+category = ["ideas"]
+[words.definitions]
+en = "method, doctrine; road, way"
+nl = "methode, leer, manier; weg, pad"
 
 [[words]]
-  lemma = "nena"
-  [words.definitions]
-    en = "nose, bump, hill, button"
-    nl = "neus, hobbel, uitsteeksel, knop"
+lemma = "nena"
+category = ["body", "things"]
+[words.definitions]
+en = "nose, bump, hill, button"
+nl = "neus, hobbel, uitsteeksel, knop"
 
 [[words]]
-  lemma = "ni"
-  [words.definitions]
-    en = "this, that, these, those"
-    nl = "dit, dat, deze, die"
+lemma = "ni"
+category = ["locating"]
+[words.definitions]
+en = "this, that, these, those"
+nl = "dit, dat, deze, die"
 
 [[words]]
-  lemma = "nimi"
-  [words.definitions]
-    en = "word, name"
-    nl = "woord, naam"
+lemma = "nimi"
+category = ["ideas"]
+[words.definitions]
+en = "word, name"
+nl = "woord, naam"
 
 [[words]]
-  lemma = "noka"
-  [words.definitions]
-    en = "foot, leg; roots, lower part"
-    nl = "voet, been; onderste gedeelte"
+lemma = "noka"
+category = ["body"]
+[words.definitions]
+en = "foot, leg; roots, lower part"
+nl = "voet, been; onderste gedeelte"
 
 [[words]]
-  lemma = "o"
-  [words.definitions]
-    en = "(vocative/imperative marker), must, ought, should, could, would"
-    nl = "(vocatief-/gebiedende wijsmarkering), moeten, zouden"
+lemma = "o"
+category = ["evoke"]
+[words.definitions]
+en = "(vocative/imperative marker), must, ought, should, could, would"
+nl = "(vocatief-/gebiedende wijsmarkering), moeten, zouden"
 
 [[words]]
-  lemma = "olin"
-  [words.definitions]
-    en = "love, bond, compassion, respect"
-    nl = "liefde, relatie, medeleven, respect"
+lemma = "olin"
+category = ["ideas"]
+[words.definitions]
+en = "love, bond, compassion, respect"
+nl = "liefde, relatie, medeleven, respect"
 
 [[words]]
-  lemma = "ona"
-  [words.definitions]
-    en = "(3rd-person) he, she, it, they, …"
-    nl = "(3e persoon) hij, zij, het, ...; zij, ..."
+lemma = "ona"
+category = ["people"]
+[words.definitions]
+en = "(3rd-person) he, she, it, they, …"
+nl = "(3e persoon) hij, zij, het, ...; zij, ..."
 
 [[words]]
-  lemma = "open"
-  [words.definitions]
-    en = "begin, start; turn on; opening"
-    nl = "beginnen, start; aanzetten; openen"
+lemma = "open"
+category = ["state"]
+[words.definitions]
+en = "begin, start; turn on; opening"
+nl = "beginnen, start; aanzetten; openen"
 
 [[words]]
-  lemma = "pakala"
-  [words.definitions]
-    en = "damage, break, harm; mistake"
-    nl = "beschadigen, breken, kwetsen; vergissing"
+lemma = "pakala"
+category = ["ideas"]
+[words.definitions]
+en = "damage, break, harm; mistake"
+nl = "beschadigen, breken, kwetsen; vergissing"
 
 [[words]]
-  lemma = "pali"
-  [words.definitions]
-    en = "work, create, take action on"
-    nl = "werken, maken, doen, actie ondernemen"
+lemma = "pali"
+category = ["activity"]
+[words.definitions]
+en = "work, create, take action on"
+nl = "werken, maken, doen, actie ondernemen"
 
 [[words]]
-  lemma = "palisa"
-  [words.definitions]
-    en = "long hard object, rod, stick"
-    nl = "lang hard voorwerp, staaf, stok"
+lemma = "palisa"
+category = ["things"]
+[words.definitions]
+en = "long hard object, rod, stick"
+nl = "lang hard voorwerp, staaf, stok"
 
 [[words]]
-  lemma = "pan"
-  [words.definitions]
-    en = "bread, grain, potato, pasta, rice"
-    nl = "brood, mais, rijst, aardappel, pasta"
+lemma = "pan"
+category = ["necessities"]
+[words.definitions]
+en = "bread, grain, potato, pasta, rice"
+nl = "brood, mais, rijst, aardappel, pasta"
 
 [[words]]
-  lemma = "pana"
-  [words.definitions]
-    en = "give, send, emit, provide"
-    nl = "geven, zenden, verstrekken"
+lemma = "pana"
+category = ["activity"]
+[words.definitions]
+en = "give, send, emit, provide"
+nl = "geven, zenden, verstrekken"
 
 [[words]]
-  lemma = "pi"
-  [words.definitions]
-    en = "(regroups modifiers)"
-    nl = "(hergroepeert bijvoeglijk naamwoorden)"
+lemma = "pi"
+category = ["connection"]
+[words.definitions]
+en = "(regroups modifiers)"
+nl = "(hergroepeert bijvoeglijk naamwoorden)"
 
 [[words]]
-  lemma = "pilin"
-  [words.definitions]
-    en = "heart, feeling (emotion, sense)"
-    nl = "hart; gevoel (emotie, zintuig)"
+lemma = "pilin"
+category = ["ideas", "body"]
+[words.definitions]
+en = "heart, feeling (emotion, sense)"
+nl = "hart; gevoel (emotie, zintuig)"
 
 [[words]]
-  lemma = "pimeja"
-  [words.definitions]
-    en = "black; dark, unlit; dark color"
-    nl = "zwart; donker, onverlicht; donkere kleur"
+lemma = "pimeja"
+category = ["sight"]
+[words.definitions]
+en = "black; dark, unlit; dark color"
+nl = "zwart; donker, onverlicht; donkere kleur"
 
 [[words]]
-  lemma = "pini"
-  [words.definitions]
-    en = "finish, stop; turn off; close, end, final"
-    nl = "beëindigen, stoppen; uitzetten; eind, conclusie"
+lemma = "pini"
+category = ["state"]
+[words.definitions]
+en = "finish, stop; turn off; close, end, final"
+nl = "beëindigen, stoppen; uitzetten; eind, conclusie"
 
 [[words]]
-  lemma = "pipi"
-  [words.definitions]
-    en = "insect, bug, spider, tiny crawling creature"
-    nl = "insect, spin, klein kruipend wezen"
+lemma = "pipi"
+category = ["critters"]
+[words.definitions]
+en = "insect, bug, spider, tiny crawling creature"
+nl = "insect, spin, klein kruipend wezen"
 
 [[words]]
-  lemma = "poka"
-  [words.definitions]
-    en = "side, hip; next to, near"
-    nl = "zijkant, heup; naast, dichtbij"
+lemma = "poka"
+category = ["locating"]
+[words.definitions]
+en = "side, hip; next to, near"
+nl = "zijkant, heup; naast, dichtbij"
 
 [[words]]
-  lemma = "poki"
-  [words.definitions]
-    en = "container, bag, bowl, box, cup"
-    nl = "container, zak, kom, doos, beker"
+lemma = "poki"
+category = ["things", "locating"]
+[words.definitions]
+en = "container, bag, bowl, box, cup"
+nl = "container, zak, kom, doos, beker"
 
 [[words]]
-  lemma = "pona"
-  [words.definitions]
-    en = "good, positive, pleasant, simple, friendly, useful, peaceful, based"
-    nl = "goed, positief, aangenaam, eenvoudig, vriendelijk, vredig"
+lemma = "pona"
+category = ["descriptions"]
+[words.definitions]
+en = "good, positive, pleasant, simple, friendly, useful, peaceful, based"
+nl = "goed, positief, aangenaam, eenvoudig, vriendelijk, vredig"
 
 [[words]]
-  lemma = "pu"
-  [words.definitions]
-    en = "to interact with Toki Pona: The Language of Good by Sonja Lang"
-    nl = "gebruik maken van Toki Pona: The Language of Good van Sonja Lang"
+lemma = "pu"
+category = ["activity"]
+[words.definitions]
+en = "to interact with Toki Pona: The Language of Good by Sonja Lang"
+nl = "gebruik maken van Toki Pona: The Language of Good van Sonja Lang"
 
 [[words]]
-  lemma = "sama"
-  [words.definitions]
-    en = "same, similar; sibling, peer; as, like"
-    nl = "zelfde; siblings, gelijke; als, zoals"
+lemma = "sama"
+category = ["descriptions"]
+[words.definitions]
+en = "same, similar; sibling, peer; as, like"
+nl = "zelfde; siblings, gelijke; als, zoals"
 
 [[words]]
-  lemma = "seli"
-  [words.definitions]
-    en = "hot, warm; heat, fire; burn"
-    nl = "heet, warm; hitte, vuur; branden"
+lemma = "seli"
+category = ["elements"]
+[words.definitions]
+en = "hot, warm; heat, fire; burn"
+nl = "heet, warm; hitte, vuur; branden"
 
 [[words]]
-  lemma = "selo"
-  [words.definitions]
-    en = "outer layer, skin, peel, shell, bark; boundary"
-    nl = "buitenste laag, huid, schil, schors; grens"
+lemma = "selo"
+category = ["locating", "body"]
+[words.definitions]
+en = "outer layer, skin, peel, shell, bark; boundary"
+nl = "buitenste laag, huid, schil, schors; grens"
 
 [[words]]
-  lemma = "seme"
-  [words.definitions]
-    en = "(question marker); what, which"
-    nl = "(vraagmarkering); wat, welke"
+lemma = "seme"
+category = ["connection"]
+[words.definitions]
+en = "(question marker); what, which"
+nl = "(vraagmarkering); wat, welke"
 
 [[words]]
-  lemma = "sewi"
-  [words.definitions]
-    en = "up, top, above; divine, sacred, supernatural; awesome, inspiring"
-    nl = "boven, bovenkant; goddelijk, heilig, bovennatuurlijk; inspirerend"
+lemma = "sewi"
+category = ["locating", "ideas"]
+[words.definitions]
+en = "up, top, above; divine, sacred, supernatural; awesome, inspiring"
+nl = "boven, bovenkant; goddelijk, heilig, bovennatuurlijk; inspirerend"
 
 [[words]]
-  lemma = "sijelo"
-  [words.definitions]
-    en = "body, physical state, torso"
-    nl = "lichaam, bovenlichaam"
+lemma = "sijelo"
+category = ["body"]
+[words.definitions]
+en = "body, physical state, torso"
+nl = "lichaam, bovenlichaam"
 
 [[words]]
-  lemma = "sike"
-  [words.definitions]
-    en = "circle, sphere; cycle, orbit, year"
-    nl = "cirkel, bol; cyclus, rondgang, jaar"
+lemma = "sike"
+category = ["things"]
+[words.definitions]
+en = "circle, sphere; cycle, orbit, year"
+nl = "cirkel, bol; cyclus, rondgang, jaar"
 
 [[words]]
-  lemma = "sin"
-  [words.definitions]
-    en = "new, fresh; another, extra"
-    nl = "nieuw, vers; extra"
+lemma = "sin"
+category = ["descriptions"]
+[words.definitions]
+en = "new, fresh; another, extra"
+nl = "nieuw, vers; extra"
 
 [[words]]
-  lemma = "sina"
-  [words.definitions]
-    en = "(2nd-person) you, y'all"
-    nl = "(2e persoon) jij, u, jullie"
+lemma = "sina"
+category = ["people"]
+[words.definitions]
+en = "(2nd-person) you, y'all"
+nl = "(2e persoon) jij, u, jullie"
 
 [[words]]
-  lemma = "sinpin"
-  [words.definitions]
-    en = "vertical surface, wall; front, face"
-    nl = "verticaal oppervlak, muur; voorkant, gezicht"
+lemma = "sinpin"
+category = ["locating", "body"]
+[words.definitions]
+en = "vertical surface, wall; front, face"
+nl = "verticaal oppervlak, muur; voorkant, gezicht"
 
 [[words]]
-  lemma = "sitelen"
-  [words.definitions]
-    en = "image, picture, symbol, writing"
-    nl = "afbeelding, symbool, handschrift"
+lemma = "sitelen"
+category = ["sight", "activity"]
+[words.definitions]
+en = "image, picture, symbol, writing"
+nl = "afbeelding, symbool, handschrift"
 
 [[words]]
-  lemma = "soko"
-  [words.definitions]
-    en = "mushroom, fungus, lichen"
-    nl = "paddenstoel, schimmel, mos"
+lemma = "soko"
+category = ["elements"]
+[words.definitions]
+en = "mushroom, fungus, lichen"
+nl = "paddenstoel, schimmel, mos"
 
 [[words]]
-  lemma = "sona"
-  [words.definitions]
-    en = "knowledge, information; know; wisdom, skill"
-    nl = "kennis, informatie; weten; wijsheid, vaardigheid"
+lemma = "sona"
+category = ["ideas"]
+[words.definitions]
+en = "knowledge, information; know; wisdom, skill"
+nl = "kennis, informatie; weten; wijsheid, vaardigheid"
 
 [[words]]
-  lemma = "soweli"
-  [words.definitions]
-    en = "land animal, beast"
-    nl = "landdier, beest"
+lemma = "soweli"
+category = ["critters"]
+[words.definitions]
+en = "land animal, beast"
+nl = "landdier, beest"
 
 [[words]]
-  lemma = "su"
-  [words.definitions]
-    en = "to interact with the illustrated story book series produced by Sonja Lang"
-    nl = "gebruik maken van de geïllustreerde serie boeken van Sonja Lang"
+lemma = "su"
+category = ["activity"]
+[words.definitions]
+en = "to interact with the illustrated story book series produced by Sonja Lang"
+nl = "gebruik maken van de geïllustreerde serie boeken van Sonja Lang"
 
 [[words]]
-  lemma = "suli"
-  [words.definitions]
-    en = "big, heavy, large; important; adult"
-    nl = "groot, zwaar; belangrijk; volwassen"
+lemma = "suli"
+category = ["descriptions"]
+[words.definitions]
+en = "big, heavy, large; important; adult"
+nl = "groot, zwaar; belangrijk; volwassen"
 
 [[words]]
-  lemma = "suno"
-  [words.definitions]
-    en = "sun, light source; light, glow"
-    nl = "zon, lichtbron; licht, gloed"
+lemma = "suno"
+category = ["elements"]
+[words.definitions]
+en = "sun, light source; light, glow"
+nl = "zon, lichtbron; licht, gloed"
 
 [[words]]
-  lemma = "supa"
-  [words.definitions]
-    en = "horizontal surface, bed, floor, table, platform, stage"
-    nl = "horizontaal oppervlak, bed, vloer, tafel, platform, podium"
+lemma = "supa"
+category = ["things"]
+[words.definitions]
+en = "horizontal surface, bed, floor, table, platform, stage"
+nl = "horizontaal oppervlak, bed, vloer, tafel, platform, podium"
 
 [[words]]
-  lemma = "suwi"
-  [words.definitions]
-    en = "sweet; cute, innocent, adorable"
-    nl = "zoet, snoep, suiker; lief, schattig"
+lemma = "suwi"
+category = ["descriptions"]
+[words.definitions]
+en = "sweet; cute, innocent, adorable"
+nl = "zoet, snoep, suiker; lief, schattig"
 
 [[words]]
-  lemma = "tan"
-  [words.definitions]
-    en = "by, from, because; origin, cause"
-    nl = "van, wegens, omdat; oorzaak, herkomst"
+lemma = "tan"
+category = ["connection"]
+[words.definitions]
+en = "by, from, because; origin, cause"
+nl = "van, wegens, omdat; oorzaak, herkomst"
 
 [[words]]
-  lemma = "taso"
-  [words.definitions]
-    en = "only, exclusively; but, however"
-    nl = "alleen, exclusief; maar"
+lemma = "taso"
+category = ["connection"]
+[words.definitions]
+en = "only, exclusively; but, however"
+nl = "alleen, exclusief; maar"
 
 [[words]]
-  lemma = "tawa"
-  [words.definitions]
-    en = "motion, walking, flight, travel; going to, for; from the perspective of"
-    nl = "beweging, lopen, reis; gaan naar, voor; vanuit het perspectief van"
+lemma = "tawa"
+category = ["state"]
+[words.definitions]
+en = "motion, walking, flight, travel; going to, for; from the perspective of"
+nl = "beweging, lopen, reis; gaan naar, voor; vanuit het perspectief van"
 
 [[words]]
-  lemma = "telo"
-  [words.definitions]
-    en = "water, liquids, drinks; to wash, to clean"
-    nl = "water, vloeistoffen, drank; wassen, schoonmaken"
+lemma = "telo"
+category = ["elements"]
+[words.definitions]
+en = "water, liquids, drinks; to wash, to clean"
+nl = "water, vloeistoffen, drank; wassen, schoonmaken"
 
 [[words]]
-  lemma = "tenpo"
-  [words.definitions]
-    en = "time, moment, period, duration"
-    nl = "tijd, moment, periode, tijdsduur"
+lemma = "tenpo"
+category = ["state", "ideas"]
+[words.definitions]
+en = "time, moment, period, duration"
+nl = "tijd, moment, periode, tijdsduur"
 
 [[words]]
-  lemma = "toki"
-  [words.definitions]
-    en = "talk, communicate; tale; language"
-    nl = "praten, communiceren; verhaal; taal"
+lemma = "toki"
+category = ["activity"]
+[words.definitions]
+en = "talk, communicate; tale; language"
+nl = "praten, communiceren; verhaal; taal"
 
 [[words]]
-  lemma = "tomo"
-  [words.definitions]
-    en = "building, room, tent, shelter"
-    nl = "gebouw, kamer, binnenruimte"
+lemma = "tomo"
+category = ["necessities"]
+[words.definitions]
+en = "building, room, tent, shelter"
+nl = "gebouw, kamer, binnenruimte"
 
 [[words]]
-  lemma = "tonsi"
-  [words.definitions]
-    en = "nonbinary; transgender"
-    nl = "nonbinair; transgender"
+lemma = "tonsi"
+category = ["people"]
+[words.definitions]
+en = "nonbinary; transgender"
+nl = "nonbinair; transgender"
 
 [[words]]
-  lemma = "tu"
-  [words.definitions]
-    en = "2; separate, divide, split"
-    nl = "2; scheiden, verdelen, splitsen"
+lemma = "tu"
+category = ["counting"]
+[words.definitions]
+en = "2; separate, divide, split"
+nl = "2; scheiden, verdelen, splitsen"
 
 [[words]]
-  lemma = "unpa"
-  [words.definitions]
-    en = "sex, to have sexual relations"
-    nl = "seks, seksuele relaties hebben"
+lemma = "unpa"
+category = ["activity"]
+[words.definitions]
+en = "sex, to have sexual relations"
+nl = "seks, seksuele relaties hebben"
 
 [[words]]
-  lemma = "uta"
-  [words.definitions]
-    en = "mouth, lips"
-    nl = "mond, lippen"
+lemma = "uta"
+category = ["body"]
+[words.definitions]
+en = "mouth, lips"
+nl = "mond, lippen"
 
 [[words]]
-  lemma = "utala"
-  [words.definitions]
-    en = "fight, compete, battle; challenge"
-    nl = "gevecht, competitie, strijd; uitdaging"
+lemma = "utala"
+category = ["ideas", "activity"]
+[words.definitions]
+en = "fight, compete, battle; challenge"
+nl = "gevecht, competitie, strijd; uitdaging"
 
 [[words]]
-  lemma = "walo"
-  [words.definitions]
-    en = "white; light-colored, bright color"
-    nl = "wit; lichtgekleurd, helder"
+lemma = "walo"
+category = ["sight"]
+[words.definitions]
+en = "white; light-colored, bright color"
+nl = "wit; lichtgekleurd, helder"
 
 [[words]]
-  lemma = "wan"
-  [words.definitions]
-    en = "1; combine, join, mix"
-    nl = "1; samenvoegen, mengen"
+lemma = "wan"
+category = ["counting"]
+[words.definitions]
+en = "1; combine, join, mix"
+nl = "1; samenvoegen, mengen"
 
 [[words]]
-  lemma = "waso"
-  [words.definitions]
-    en = "bird, flying animal, winged animal"
-    nl = "vogel, vliegend of gevleugeld dier"
+lemma = "waso"
+category = ["critters"]
+[words.definitions]
+en = "bird, flying animal, winged animal"
+nl = "vogel, vliegend of gevleugeld dier"
 
 [[words]]
-  lemma = "wawa"
-  [words.definitions]
-    en = "amazing; power, energy; intense"
-    nl = "geweldig; kracht, energie; intens"
+lemma = "wawa"
+category = ["ideas"]
+[words.definitions]
+en = "amazing; power, energy; intense"
+nl = "geweldig; kracht, energie; intens"
 
 [[words]]
-  lemma = "weka"
-  [words.definitions]
-    en = "away, absent, distant; remove, rid"
-    nl = "weg, afwezig, ver weg; verwijderd"
+lemma = "weka"
+category = ["locating","state"]
+[words.definitions]
+en = "away, absent, distant; remove, rid"
+nl = "weg, afwezig, ver weg; verwijderd"
 
 [[words]]
-  lemma = "wile"
-  [words.definitions]
-    en = "want, must, need"
-    nl = "willen, moeten, benodigen"
+lemma = "wile"
+category = ["necessities", "ideas"]
+[words.definitions]
+en = "want, must, need"
+nl = "willen, moeten, benodigen"
