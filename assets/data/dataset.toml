@@ -81,6 +81,10 @@ things = "dingen"
     nl = "(mogelijkheidsmarkering), of"
 
 [[words]]
+  lemma = "aoeui"
+  subtitle = "haha you found an easter egg"
+
+[[words]]
   lemma = "awen"
   [words.definitions]
     en = "stay, remain, wait; protect, save; to continue"

@@ -3,10 +3,18 @@
   <hr />
   <h1>{{ wordData ? wordData.lemma : route.params.word }}</h1>
   <p v-if="status === 'pending'">Loading...</p>
-  <p v-if="error">Error: {{ error }}</p>
+  <div v-if="error">
+    <p><strong>Word not found</strong></p>
+    <p>
+      Error: <code>{{ error }}</code>
+    </p>
+  </div>
   <div v-else-if="wordData">
     <dl>
-      <dt v-if="wordData">{{ wordData.lemma }}</dt>
+      <dt v-if="wordData">
+        {{ wordData.lemma }}
+        <em v-if="wordData.subtitle">({{ wordData.subtitle }})</em>
+      </dt>
       <dd v-if="wordData && wordData.definitions && wordData.definitions.en">
         (EN) {{ wordData.definitions.en }}
       </dd>
@@ -20,6 +28,7 @@
 <script setup lang="ts">
 interface WordData {
   lemma?: string;
+  subtitle?: string;
   definitions?: {
     en?: string;
     nl?: string;
