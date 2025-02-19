@@ -1,6 +1,8 @@
 <template>
   <header>
-    <h1>yatpid</h1>
+    <h1>
+      <NuxtLink to="/">yatpid</NuxtLink>
+    </h1>
   </header>
 </template>
 
