@@ -13,20 +13,21 @@
         </li>
         <li>
           <NuxtLink to="https://github.com/ttenpi/yatpid">
-            GitHub</NuxtLink>
+            code</NuxtLink> (<NuxtLink
+            to="https://github.com/ttenpi/yatpid/blob/main/LICENSE.md">
+            <abbr
+              title="Website code licensed under the Opinionated Queer License v1.2">OQL</abbr>
+          </NuxtLink>)
         </li>
         <li>
           <NuxtLink
             to="https://github.com/ttenpi/yatpid/blob/main/assets/data/dataset.toml">
-            Dataset</NuxtLink>
+            Dataset</NuxtLink> (<NuxtLink to=""><abbr
+              title="Dataset licensed under CC0 1.0 Universal">CC0</abbr>
+          </NuxtLink>)
         </li>
       </ul>
     </nav>
-    <p>code licensed under <NuxtLink
-        to="https://github.com/ttenpi/yatpid/blob/main/LICENSE.md">
-        OQL</NuxtLink>
-    </p>
-    <p>dataset licensed under <NuxtLink to="">CC0</NuxtLink></p>
   </footer>
 </template>
 
