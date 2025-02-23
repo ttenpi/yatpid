@@ -17,6 +17,7 @@
     "@nuxt/fonts": "^0.10.0",
     "@nuxt/kit": "^3.15.4",
     "@nuxtjs/color-mode": "^3.5.1",
+    "@nuxtjs/mdc": "0.13.5",
     "nuxt": "^3.15.4",
     "prettier-plugin-toml": "^2.0.1",
     "vite": ">=6.0",
