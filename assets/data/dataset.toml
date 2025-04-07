@@ -55,15 +55,15 @@ semanticCategory = ["counting"]
 en = "not, nothing, no; 0; (negation); (yes-no question)"
 nl = "niet, niets, nee; 0; (ontkenning); (ja-nee-vraag)"
 [[words.example]]
-tok = "mi jo ala e palisa utala"
+tok = "mi jo ala e sike"
 subtitle = "negation of action"
-en = "I don't have a sword."
-nl = "Ik heb geen zwaard."
+en = "I don't have a ball."
+nl = "Ik heb geen bal."
 [[words.example]]
-tok = "sina wile ala wile e kili ni"
+tok = "sina wile ala wile e kili"
 subtitle = "yes-no question"
-en = "Do you want this fruit?"
-nl = "Wil je deze vrucht?"
+en = "Do you want fruit?"
+nl = "Wil je een stuk fruit?"
 
 [[words]]
 lemma = "alasa"
