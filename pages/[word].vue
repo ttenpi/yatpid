@@ -1,14 +1,14 @@
 <template>
-  <p>
+  <nav>
     <NuxtLink to="/">back to dictionary</NuxtLink>
-  </p>
+  </nav>
   <hr />
 
   <h1>
     {{ wordData ? wordData.lemma : route.params.word }}
   </h1>
 
-  <!-- Loading -->
+  <!-- Loading status (hidden if loaded) -->
   <p v-if="status === 'pending'">Loading...</p>
   <div v-if="error">
     <p><strong>Word not found</strong></p>
