@@ -97,11 +97,10 @@ subtitle = "content word (modifier)"
 en = "Eagles (hunting birds) are strong."
 nl = "Arenden (jagende vogels) zijn sterk."
 [[words.example]]
-tok = "mi alasa pali e sitelen pona"
+tok = "mi alasa kama sona e toki pona"
 subtitle = "preverb (sometimes discouraged, in favour of lukin)"
-en = "I am trying to create a nice painting."
-nl = "Ik probeer een mooi schilderij te maken."
-
+en = "I am trying to learn Toki Pona."
+nl = "Ik probeer Toki Pona te leren."
 
 [[words]]
 lemma = "ale"
@@ -130,7 +129,6 @@ subtitle = "quantity (100, nasin nanpa pona)"
 en = "Two hundred sheets of paper are inside the printer."
 nl = "Twee honderd vellen papier zitten in de printer."
 
-
 [[words]]
 lemma = "anpa"
 semanticCategory = ["locating"]
@@ -153,13 +151,22 @@ subtitle = "modifier (figurative)"
 en = "The losing team will go."
 nl = "Het verliezende team zal gaan."
 
-
 [[words]]
 lemma = "ante"
 semanticCategory = ["descriptions", "state"]
 [words.definitions]
 en = "different, change, changed, other"
 nl = "anders, veranderd, verandering"
+[[words.example]]
+tok = "mi ante e kule sinpin"
+subtitle = "verb/predicate"
+en = "I changed the color of the wall."
+nl = "Ik veranderde de kleur van de muur."
+[[words.example]]
+tok = "ona li tawa nasin ante"
+subtitle = "modifier"
+en = "They are going down a different path."
+nl = "Zij gaan een andere weg."
 
 [[words]]
 lemma = "anu"
@@ -167,10 +174,21 @@ semanticCategory = ["connection"]
 [words.definitions]
 en = "(possibility marker), or"
 nl = "(mogelijkheidsmarkering), of"
-
-[[words]]
-lemma = "aoeui"
-subtitle = "haha you found an easter egg"
+[[words.example]]
+tok = "ona li jan pona anu seme"
+subtitle = "tag question"
+en = "They're friends, aren't they?"
+nl = "Ze zijn vrienden, toch?"
+[[words.example]]
+tok = "sina wile moku e kili anu pan"
+subtitle = "disjunction question"
+en = "Do you want to eat fruit or bread?"
+nl = "Wil je fruit of brood eten?"
+[[words.example]]
+tok = "mi ken kama lon tenpo suno anu tenpo pimeja"
+subtitle = "disjunction"
+en = "I can come in the daytime or nighttime."
+nl = "Ik kan overdag of overnacht komen."
 
 [[words]]
 lemma = "awen"
@@ -178,6 +196,20 @@ semanticCategory = ["state"]
 [words.definitions]
 en = "stay, remain, wait; protect, save; to continue"
 nl = "stand houden, wachten, blijven; beschermen, redden; doorgaan"
+[[words.example]]
+tok = "o awen"
+en = "Wait./Keep going."
+nl = "Wacht./Ga door."
+[[words.example]]
+tok = "jan awen li lon tomo"
+subtitle = "modifier"
+en = "The guard is in the house."
+nl = "De bewaker is in het huis."
+[[words.example]]
+tok = "mi awen pali e tomo"
+subtitle = "preverb"
+en = "I am continuing to build the house."
+nl = "Ik blijf het huis bouwen."
 
 [[words]]
 lemma = "e"
@@ -185,6 +217,11 @@ semanticCategory = ["connection"]
 [words.definitions]
 en = "(direct object marker)"
 nl = "(lijdend voorwerpmarkering)"
+[[words.example]]
+tok = "mi moku e kili"
+subtitle = "particle indicating object"
+en = "I'm eating fruit."
+nl = "Ik eet fruit."
 
 [[words]]
 lemma = "en"
@@ -192,6 +229,11 @@ semanticCategory = ["connection"]
 [words.definitions]
 en = "(multiple subject marker)"
 nl = "(meervoudig onderwerpmarkering)"
+[[words.example]]
+tok = "jan sona en kulupu li tawa tomo moku"
+subtitle = "multiple subject"
+en = "The teacher and the group are going to the restaurant."
+nl = "De leraar en de groep gaan naar het restaurant."
 
 [[words]]
 lemma = "esun"
@@ -199,6 +241,18 @@ semanticCategory = ["necessities", "activity"]
 [words.definitions]
 en = "market, shop; trade, buy, sell"
 nl = "markt, winkel; ruil, koop, verkoop"
+[[words.example]]
+tok = "mi wile esun e len"
+en = "I want to buy clothes."
+nl = "Ik wil kleren kopen."
+[[words.example]]
+tok = "mi lon esun pi moku telo"
+en = "I am at the soup store."
+nl = "Ik ben in de soepwinkel."
+[[words.example]]
+tok = "mi ken esun e lipu musi ni"
+en = "I can trade this playing card."
+nl = "Ik kan deze speelkaart ruilen."
 
 [[words]]
 lemma = "ijo"
