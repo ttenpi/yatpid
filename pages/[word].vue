@@ -17,46 +17,51 @@
     </p>
   </div>
 
+  <!-- Word data (shows when loaded) -->
   <div v-else-if="wordData">
     <dl>
       <!-- Lemma -->
-      <dt>
+      <dt lang="tok">
         {{ wordData.lemma }}
       </dt>
-      <!-- Subtitle -->
-      <small v-if="wordData.subtitle">
-        ({{ wordData.subtitle }})
-      </small>
       <!-- Data -->
       <dd v-if="wordData && wordData.semanticCategory">
         (Categories: {{ wordData.semanticCategory }})
       </dd>
       <!-- Definition EN -->
       <dd
-        v-if="wordData && wordData.definitions && wordData.definitions.en">
+        v-if="wordData && wordData.definitions && wordData.definitions.en"
+        lang="en">
         (EN) {{ wordData.definitions.en }}
       </dd>
       <!-- Definition NL -->
       <dd
-        v-if="wordData && wordData.definitions && wordData.definitions.nl">
+        v-if="wordData && wordData.definitions && wordData.definitions.nl"
+        lang="nl">
         (NL) {{ wordData.definitions.nl }}
       </dd>
-    </dl>
 
+    </dl>
+    <!-- Subtitle -->
+    <small v-if="wordData.subtitle">
+      ({{ wordData.subtitle }})
+    </small>
     <!-- Examples -->
     <section class="examples"
       v-if="wordData && wordData.example">
       <h2>Examples:</h2>
       <dl v-for="(example, index) in wordData.example"
         :key="index">
-        <dt>
+        <dt lang="tok">
           {{ example.tok }}
         </dt>
         <small v-if="example.subtitle">
           ({{ example.subtitle }})
         </small>
-        <dd v-if="example.en">(EN) {{ example.en }}</dd>
-        <dd v-if="example.nl">(NL) {{ example.nl }}</dd>
+        <dd v-if="example.en" lang="en">(EN)
+          {{ example.en }}</dd>
+        <dd v-if="example.nl" lang="nl">(NL)
+          {{ example.nl }}</dd>
       </dl>
     </section>
 
