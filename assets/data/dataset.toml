@@ -253,6 +253,10 @@ nl = "Ik ben in de soepwinkel."
 tok = "mi ken esun e lipu musi ni"
 en = "I can trade this playing card."
 nl = "Ik kan deze speelkaart ruilen."
+[[words.example]]
+tok = "mi esun e poki jelo e poki loje"
+en = "I swapped the yellow bag and the red bag."
+nl = "Ik wisselde de gele tas en de rode tas."
 
 [[words]]
 lemma = "ijo"
@@ -260,6 +264,14 @@ semanticCategory = ["things"]
 [words.definitions]
 en = "thing, object, matter"
 nl = "ding, object, voorwerp"
+[[words.example]]
+tok = "ijo li pana e kalama"
+en = "Something is making noise."
+nl = "Iets maakt geluid."
+[[words.example]]
+tok = "ijo mi li lon poki"
+en = "My things are in the chest."
+nl = "Mijn spullen zitten in de kist."
 
 [[words]]
 lemma = "ike"
@@ -267,6 +279,10 @@ semanticCategory = ["descriptions"]
 [words.definitions]
 en = "bad, negative, unpleasant, cringe, complex, harmful, unneeded"
 nl = "slecht, negatief, onaangenaam, moeilijk, schadelijk, onnodig"
+[[words.example]]
+tok = "telo soweli walo li ike tawa mi"
+en = "Cow's milk is bad for me."
+nl = "Koeienmelk is slecht voor mij."
 
 [[words]]
 lemma = "ilo"
@@ -274,6 +290,10 @@ semanticCategory = ["things"]
 [words.definitions]
 en = "tool, machine, device, instrument"
 nl = "gereedschap, machine, apparaat, instrument"
+[[words.example]]
+tok = "mi ko e kili kepeken ilo"
+en = "I blend the fruit with a blender."
+nl = "Ik mix het fruit met een blender."
 
 [[words]]
 lemma = "insa"
@@ -281,6 +301,14 @@ semanticCategory = ["locating", "body"]
 [words.definitions]
 en = "inside, center, between, middle; organ, stomach"
 nl = "binnen, midden; orgaan, maag"
+[[words.example]]
+tok = "mi lon insa tomo"
+en = "I am in the house."
+nl = "Ik ben in het huis."
+[[words.example]]
+tok = "insa mi li pilin ike"
+en = "My stomach hurts."
+nl = "Mijn maag doet pijn."
 
 [[words]]
 lemma = "jaki"
@@ -288,6 +316,10 @@ semanticCategory = ["descriptions"]
 [words.definitions]
 en = "disgusting, unclean, toxic"
 nl = "walgeijk, vies, giftig"
+[[words.example]]
+tok = "mi weka e jaki mi"
+en = "I take out my trash."
+nl = "Ik gooi mijn afval weg."
 
 [[words]]
 lemma = "jan"
@@ -295,6 +327,10 @@ semanticCategory = ["people"]
 [words.definitions]
 en = "person, somebody"
 nl = "persoon, iemand"
+[[words.example]]
+tok = "jan sin li lili"
+en = "Babies are small."
+nl = "Baby's zijn klein."
 
 [[words]]
 lemma = "jelo"
@@ -302,6 +338,10 @@ semanticCategory = ["sight"]
 [words.definitions]
 en = "yellow, yellowish color"
 nl = "geel, geelachtige kleur"
+[[words.example]]
+tok = "kili jelo palisa li moku pona"
+en = "Bananas are good food."
+nl = "Bananen zijn goed voedsel."
 
 [[words]]
 lemma = "jo"
@@ -309,6 +349,16 @@ semanticCategory = ["activity"]
 [words.definitions]
 en = "have, hold, carry, contain"
 nl = "hebben, dragen, bevatten"
+[[words.example]]
+tok = "mi jo e kili"
+subtitle = "physical possession"
+en = "I have fruit."
+nl = "Ik heb fruit."
+[[words.example]]
+tok = "mi jo e tomo tawa"
+subtitle = "possession as ownership (sometimes discouraged use)"
+en = "I own a car."
+nl = "Ik heb een auto."
 
 [[words]]
 lemma = "kala"
@@ -316,6 +366,10 @@ semanticCategory = ["critters"]
 [words.definitions]
 en = "fish, marine animal"
 nl = "vis, zeedier"
+[[words.example]]
+tok = "kala mute li lon telo suli"
+en = "Many fish are in the ocean."
+nl = "Veel vissen zijn in de oceaan."
 
 [[words]]
 lemma = "kalama"
