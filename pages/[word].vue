@@ -19,50 +19,56 @@
 
   <!-- Word data (shows when loaded) -->
   <div v-else-if="wordData">
-    <dl>
-      <!-- Lemma -->
-      <dt lang="tok">
-        {{ wordData.lemma }}
-      </dt>
-      <!-- Data -->
-      <dd v-if="wordData && wordData.semanticCategory">
-        (Categories: {{ wordData.semanticCategory }})
-      </dd>
-      <!-- Definition EN -->
-      <dd
-        v-if="wordData && wordData.definitions && wordData.definitions.en"
-        lang="en">
-        (EN) {{ wordData.definitions.en }}
-      </dd>
-      <!-- Definition NL -->
-      <dd
-        v-if="wordData && wordData.definitions && wordData.definitions.nl"
-        lang="nl">
-        (NL) {{ wordData.definitions.nl }}
-      </dd>
-
-    </dl>
     <!-- Subtitle -->
     <small v-if="wordData.subtitle">
       ({{ wordData.subtitle }})
     </small>
+    <section class="definition">
+      <dl>
+        <!-- Lemma -->
+        <dt lang="tok">
+          {{ wordData.lemma }}
+        </dt>
+        <!-- Data -->
+        <dd v-if="wordData && wordData.semanticCategory">
+          (Categories: {{ wordData.semanticCategory }})
+        </dd>
+        <!-- Definition EN -->
+        <dd
+          v-if="wordData && wordData.definitions && wordData.definitions.en"
+          lang="en">
+          (EN) {{ wordData.definitions.en }}
+        </dd>
+        <!-- Definition NL -->
+        <dd
+          v-if="wordData && wordData.definitions && wordData.definitions.nl"
+          lang="nl">
+          (NL) {{ wordData.definitions.nl }}
+        </dd>
+      </dl>
+    </section>
+
     <!-- Examples -->
     <section class="examples"
       v-if="wordData && wordData.example">
       <h2>Examples:</h2>
-      <dl v-for="(example, index) in wordData.example"
+      <section v-for="(example, index) in wordData.example"
         :key="index">
-        <dt lang="tok">
-          {{ example.tok }}
-        </dt>
-        <small v-if="example.subtitle">
-          ({{ example.subtitle }})
-        </small>
-        <dd v-if="example.en" lang="en">(EN)
-          {{ example.en }}</dd>
-        <dd v-if="example.nl" lang="nl">(NL)
-          {{ example.nl }}</dd>
-      </dl>
+        <h3 v-if="example.subtitle">
+          {{ example.subtitle }}
+        </h3>
+        <dl>
+          <dt lang="tok">
+            {{ example.tok }}
+          </dt>
+          <dd v-if="example.en" lang="en">(EN)
+            {{ example.en }}
+          </dd>
+          <dd v-if="example.nl" lang="nl">(NL)
+            {{ example.nl }}
+          </dd>
+        </dl>
+      </section>
     </section>
 
   </div>
