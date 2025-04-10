@@ -377,6 +377,16 @@ semanticCategory = ["activity"]
 [words.definitions]
 en = "to make noise; sound"
 nl = "geluid maken; klank"
+[[words.example]]
+tok = "ilo li ken pana e kalama mute"
+subtitle = "noun"
+en = "The machine can make a lot of noise."
+nl = "De machine kan veel geluid maken."
+[[words.example]]
+tok = "jan tu li kalama musi"
+subtitle = "verb/predicate"
+en = "The two people are making music."
+nl = "De twee mensen maken muziek."
 
 [[words]]
 lemma = "kama"
@@ -384,6 +394,21 @@ semanticCategory = ["state"]
 [words.definitions]
 en = "arrive, summon; future; become"
 nl = "aankomen; toekomst; worden"
+[[words.example]]
+tok = "mi kama pona"
+subtitle = "verb/predicate (became/to become/will become)"
+en = "I am getting better."
+nl = "Ik word beter."
+[[words.example]]
+tok = "waso li kama lon ma ante"
+subtitle = "verb/predicate (to arrive)"
+en = "The bird arrived at another country."
+nl = "De vogel arriveerde in een ander land."
+[[words.example]]
+tok = "mi kama sona e toki pona"
+subtitle = "preverb"
+en = "I am learning Toki Pona."
+nl = "Ik leer Toki Pona."
 
 [[words]]
 lemma = "kasi"
@@ -391,6 +416,10 @@ semanticCategory = ["elements"]
 [words.definitions]
 en = "plant, vegetation; herb, leaf"
 nl = "plant, gewas; kruid, blad"
+[[words.example]]
+tok = "kasi suli li lon poka tomo"
+en = "The tree is next to the house."
+nl = "De boom staat naast het huis."
 
 [[words]]
 lemma = "ken"
@@ -398,6 +427,14 @@ semanticCategory = ["state"]
 [words.definitions]
 en = "can, may, ability; possible; allow, enable; to be able to"
 nl = "kunnen, vermogen, mogen; mogelijk, toestaan; in staat zijn"
+[[words.example]]
+tok = "mi ken pali e len"
+en = "I can make clothes."
+nl = "Ik kan kleren maken."
+[[words.example]]
+tok = "ken la moku li lon"
+en = "It's possible that food is there."
+nl = "Het is mogelijk dat er eten is."
 
 [[words]]
 lemma = "kepeken"
@@ -405,13 +442,27 @@ semanticCategory = ["activity"]
 [words.definitions]
 en = "using, with, by means of"
 nl = "gebruiken, met behulp van"
+[[words.example]]
+tok = "sina ken sitelen kepeken ilo kule"
+subtitle = "preposition"
+en = "You can draw with a colored pencil."
+nl = "Je kunt tekenen met een kleurpotlood."
 
 [[words]]
 lemma = "kijetesantakalu"
+subtitle = "joke word"
 semanticCategory = ["critters"]
 [words.definitions]
 en = "raccoon, procyonid, musteloid"
 nl = "wasbeer, stinkdier, marters, ..."
+[[words.example]]
+tok = "kijetesantakalu tonsi li lanpan ala lanpan e soko"
+en = "Did the nonbinary raccoon steal the mushroom?"
+nl = "Heeft de nonbinaire wasbeer de paddenstoel gestolen?"
+[[words.example]]
+tok = "kijetesantakalu linja li tawa wawa"
+en = "The ferret is running."
+nl = "De fret is aan het rennen."
 
 [[words]]
 lemma = "kili"
@@ -419,6 +470,10 @@ semanticCategory = ["elements"]
 [words.definitions]
 en = "fruit, vegetable"
 nl = "fruit, vrucht, groente"
+[[words.example]]
+tok = "kili loje li insa poki mi"
+en = "Apples are in my lunchbox."
+nl = "Appels zitten in mijn lunchbox."
 
 [[words]]
 lemma = "kin"
@@ -426,6 +481,21 @@ semanticCategory = ["connection"]
 [words.definitions]
 en = "too, also"
 nl = "ook, tevens, bovendien"
+[[words.example]]
+tok = "mi sona e musi ni kin"
+subtitle = "modifier"
+en = "I know this game too."
+nl = "Ik ken dit spel ook."
+[[words.example]]
+tok = "kin la mi wile moku e telo"
+subtitle = "pseudo-particle"
+en = "Also, I want to drink."
+nl = "Ik wil ook drinken."
+[[words.example]]
+tok = "kin mi wile moku e telo"
+subtitle = "pseudo-particle (no la, less common)"
+en = "Also, I want to drink."
+nl = "Ik wil ook drinken."
 
 [[words]]
 lemma = "kipisi"
@@ -433,6 +503,10 @@ semanticCategory = ["activity"]
 [words.definitions]
 en = "cut, split, slice; piece, part"
 nl = "snede, splitsen, splijten; stuk, deel"
+[[words.example]]
+tok = "mi kipisi e pan"
+en = "I cut the bread."
+nl = "Ik snijd het brood."
 
 [[words]]
 lemma = "kiwen"
@@ -440,6 +514,10 @@ semanticCategory = ["descriptions", "elements"]
 [words.definitions]
 en = "hard object, stone, rock, metal"
 nl = "hard voorwerp, steen, rots, metaal"
+[[words.example]]
+tok = "kiwen li lon nena suli"
+en = "There are rocks on the mountain."
+nl = "Er liggen stenen op de berg."
 
 [[words]]
 lemma = "ko"
@@ -447,6 +525,14 @@ semanticCategory = ["descriptions"]
 [words.definitions]
 en = "clay, dough, something pliable, powder, sand"
 nl = "klei, deeg, poeder; een kneedbaar iets, zand"
+[[words.example]]
+tok = "o pana e ko tawa sijelo sina"
+en = "Put the cream on your body."
+nl = "Doe de crème op je lichaam."
+[[words.example]]
+tok = "jan mute li lon ma ko"
+en = "Many people are at the beach."
+nl = "Veel mensen zijn op het strand."
 
 [[words]]
 lemma = "kon"
@@ -454,6 +540,10 @@ semanticCategory = ["elements"]
 [words.definitions]
 en = "air, breath, wind; spirit, soul"
 nl = "lucht, adem, wind; geest, ziel"
+[[words.example]]
+tok = "telo li pini la kon li pona"
+en = "The rain stopped, so the air is good."
+nl = "De regen stopte, dus de lucht is goed."
 
 [[words]]
 lemma = "ku"
@@ -461,6 +551,10 @@ semanticCategory = ["activity"]
 [words.definitions]
 en = "to interact with Toki Pona Dictionary by Sonja Lang"
 nl = "gebruik maken van Toki Pona Dictionary van Sonja Lang"
+[[words.example]]
+tok = "mi ku"
+en = "I am reading the Toki Pona Dictionary."
+nl = "Ik lees het Toki Pona Woordenboek."
 
 [[words]]
 lemma = "kule"
@@ -468,6 +562,20 @@ semanticCategory = ["sight"]
 [words.definitions]
 en = "color; aspect of sense, timbre, pitch, flavor, texture; queer"
 nl = "kleur; zintuiglijk aspect, toon, klankkleur, smaak, textuur; queer"
+[[words.example]]
+tok = "kule kasi li laso"
+en = "The color of the plant is green."
+nl = "De kleur van de plant is groen."
+[[words.example]]
+tok = "moku ni li kule uta nasa"
+subtitle = "extended definition, sensory"
+en = "This food has a strange flavour."
+nl = "Dit eten heeft een vreemde smaak."
+[[words.example]]
+tok = "kulupu kule li wawa"
+subtitle = "extended definition, queer"
+en = "The queer community is great."
+nl = "De queer-gemeenschap is geweldig."
 
 [[words]]
 lemma = "kulupu"
@@ -475,6 +583,18 @@ semanticCategory = ["people"]
 [words.definitions]
 en = "group, community, company, collection, team"
 nl = "groep, gemeenschap, organisatie, verzameling, team"
+[[words.example]]
+tok = "kulupu musi li kama nanpa wan"
+en = "The sports team became number one."
+nl = "Het sportteam werd nummer één."
+[[words.example]]
+tok = "mi kama pali lon kulupu esun"
+en = "I got a job at the store."
+nl = "Ik kreeg een baan in de winkel."
+[[words.example]]
+tok = "kulupu sitelen ni li suli"
+en = "This art collection is large."
+nl = "Deze kunstcollectie is groot."
 
 [[words]]
 lemma = "kute"
@@ -482,6 +602,14 @@ semanticCategory = ["body"]
 [words.definitions]
 en = "ear; hear, listen"
 nl = "oor; horen, luisteren"
+[[words.example]]
+tok = "mi kute e ilo tawa"
+en = "I'm hearing vehicles."
+nl = "Ik hoor voertuigen."
+[[words.example]]
+tok = "ilo kalama mi li lon kute mi"
+en = "My headphones are on my ears."
+nl = "Mijn koptelefoon zit op mijn oren."
 
 [[words]]
 lemma = "la"
