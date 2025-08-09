@@ -1,3 +1,4 @@
+# This script merges two TOML dictionaries into a single structure.
 import toml
 import os
 from collections import defaultdict
