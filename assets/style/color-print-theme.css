@@ -7,4 +7,20 @@
   --c-info: #17a2b8;
   --c-warning: #ffc107;
   --c-danger: #dc3545;
+  
+  --c-theme1: var(--ctp-latte-rosewater);
+  --c-theme2: var(--ctp-latte-flamingo);
+  --c-theme3: var(--ctp-latte-pink);
+  --c-theme4: var(--ctp-latte-mauve);
+  --c-theme5: var(--ctp-latte-red);
+  --c-theme6: var(--ctp-latte-maroon);
+  --c-theme7: var(--ctp-latte-peach);
+  --c-theme8: var(--ctp-latte-yellow);
+  --c-theme9: var(--ctp-latte-green);
+  --c-theme10: var(--ctp-latte-teal);
+  --c-theme11: var(--ctp-latte-sky);
+  --c-theme12: var(--ctp-latte-sapphire);
+  --c-theme13: var(--ctp-latte-blue);
+  --c-theme14: var(--ctp-latte-lavender);
+  --c-theme15: var(--ctp-latte-text);
 }

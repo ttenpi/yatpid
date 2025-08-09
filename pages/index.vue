@@ -1,6 +1,19 @@
 <template>
   <div>
     <h1>Dictionary</h1>
+    <DictGroup title="testing 1">
+      <DictLemma term="wawa" />
+      <DictLemma term="melisma" />
+      <DictLemma term="akesi" />
+    </DictGroup>
+    <DictGroup title="testing 2">
+      <DictLemma term="ala" />
+      <DictLemma term="anpa" />
+    </DictGroup>
+    <DictGroup title="testing 3">
+      <DictLemma term="tonsi" />
+    </DictGroup>
+    <hr />
     <p v-if="status === 'pending'">Loading...</p>
     <p v-else-if="status === 'error'">Error:
       <code>{{ error }}</code>

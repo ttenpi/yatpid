@@ -124,6 +124,33 @@
   color-scheme: dark;
 }
 
+:root {
+  --c-bg: var(--ctp-crust);
+  --c-text: var(--ctp-text);
+  --c-primary: var(--ctp-mauve);
+  --c-secondary: var(--ctp-subtext0);
+  --c-success: var(--ctp-green);
+  --c-info: var(--ctp-sky);
+  --c-warning: var(--ctp-yellow);
+  --c-danger: var(--ctp-red);
+
+  --c-theme1: var(--ctp-rosewater);
+  --c-theme2: var(--ctp-flamingo);
+  --c-theme3: var(--ctp-pink);
+  --c-theme4: var(--ctp-mauve);
+  --c-theme5: var(--ctp-red);
+  --c-theme6: var(--ctp-maroon);
+  --c-theme7: var(--ctp-peach);
+  --c-theme8: var(--ctp-yellow);
+  --c-theme9: var(--ctp-green);
+  --c-theme10: var(--ctp-teal);
+  --c-theme11: var(--ctp-sky);
+  --c-theme12: var(--ctp-sapphire);
+  --c-theme13: var(--ctp-blue);
+  --c-theme14: var(--ctp-lavender);
+  --c-theme15: var(--ctp-text);
+}
+
 * {
   transition: background-color .3s;
 }

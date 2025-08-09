@@ -1,9 +1,9 @@
 :root {
   --measure: 70ch;
   --font-size-adapt: 0.333vw;
-  --line-height: 1.6;
-  --font-body: "Figtree", sans-serif;
-  --font-display: "Plus Jakarta Sans", sans-serif;
+  --line-height: 1.4;
+  --font-body: "figtree variable", "figtree", sans-serif;
+  --font-tp: "nishiki-teki-lili";
   font-size: var(--s0);
 }
 
@@ -11,9 +11,13 @@
 
 body {
   font-family: var(--font-body);
-  font-weight: 420;
+  font-weight: 500;
   /* 1rem at minimum, so it never drops below the system/browser/user defined value */
   line-height: var(--line-height);
+}
+
+[lang="tok-x-stlnpona"] {
+  font-family: var(--font-tp), sans-serif;
 }
 
 /* headers */
@@ -40,7 +44,6 @@ h3,
 h4,
 .font-display {
   color: var(--color-primary);
-  font-family: var(--font-display);
   font-weight: 666;
   line-height: 1.2;
   text-wrap: balance;
