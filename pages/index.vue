@@ -14,6 +14,9 @@
       <DictLemma term="tonsi" />
     </DictGroup>
     <hr />
+
+    <hr />
+
     <p v-if="status === 'pending'">Loading...</p>
     <p v-else-if="status === 'error'">Error:
       <code>{{ error }}</code>
@@ -51,9 +54,3 @@
     error,
   } = useFetch<Word[]>("/api/dictionary")
 </script>
-
-<style>
-  dt {
-    font-weight: bold;
-  }
-</style>

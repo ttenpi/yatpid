@@ -34,13 +34,13 @@
         ❔
       </div>
       <dl>
-        <dt class="term-lemma">
+        <dt class="term-lemma loading">
           <NuxtLink :to="`/${props.term}`">
             {{ props.term }}
           </NuxtLink>
         </dt>
-        <dd class="term-definition-loading">definition not
-          found...</dd>
+        <dd class="term-definition-loading">[definition not
+          found...]</dd>
       </dl>
     </div>
   </div>
@@ -73,6 +73,11 @@
 
   .term-lemma {
     font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .term-lemma.loading {
+    color: var(--c-danger);
   }
 
   .term-sitelenpona {
