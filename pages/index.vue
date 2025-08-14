@@ -13,9 +13,7 @@
     <DictGroup title="testing 3">
       <DictLemma term="tonsi" />
     </DictGroup>
-    <hr />
 
-    <hr />
 
     <p v-if="status === 'pending'">Loading...</p>
     <p v-else-if="status === 'error'">Error:

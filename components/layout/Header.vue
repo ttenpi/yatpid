@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="main-top-bar">
     <h1>
       <NuxtLink to="/">yatpid</NuxtLink>
     </h1>
@@ -7,7 +7,7 @@
 </template>
 
 <style>
-  header {
+  .main-top-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,8 +18,10 @@
     height: 60px;
   }
 
-  h1 {
+  .main-top-bar h1 {
     margin: 0;
     font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
   }
 </style>
