@@ -2,16 +2,16 @@
   <div>
     <h1>Dictionary</h1>
     <DictGroup title="testing 1">
-      <DictLemma term="wawa" />
-      <DictLemma term="melisma" />
-      <DictLemma term="akesi" />
+      <DictEntry term="wawa" />
+      <DictEntry term="melisma" />
+      <DictEntry term="akesi" />
     </DictGroup>
     <DictGroup title="testing 2">
-      <DictLemma term="ala" />
-      <DictLemma term="anpa" />
+      <DictEntry term="ala" />
+      <DictEntry term="anpa" />
     </DictGroup>
     <DictGroup title="testing 3">
-      <DictLemma term="tonsi" />
+      <DictEntry term="tonsi" />
     </DictGroup>
 
 
