@@ -1,18 +1,20 @@
 <template>
   <div>
     <h1>Dictionary</h1>
-    <DictGroup title="testing 1">
-      <DictEntry term="wawa" />
-      <DictEntry term="melisma" />
-      <DictEntry term="akesi" />
-    </DictGroup>
-    <DictGroup title="testing 2">
-      <DictEntry term="ala" />
-      <DictEntry term="anpa" />
-    </DictGroup>
-    <DictGroup title="testing 3">
-      <DictEntry term="tonsi" />
-    </DictGroup>
+    <DictGroupContainer>
+      <DictGroup title="testing 1">
+        <DictEntry term="wawa" />
+        <DictEntry term="melisma" />
+        <DictEntry term="akesi" />
+      </DictGroup>
+      <DictGroup title="testing 2">
+        <DictEntry term="ala" />
+        <DictEntry term="anpa" />
+      </DictGroup>
+      <DictGroup title="testing 3">
+        <DictEntry term="tonsi" />
+      </DictGroup>
+    </DictGroupContainer>
 
 
     <p v-if="status === 'pending'">Loading...</p>
