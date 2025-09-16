@@ -20,8 +20,6 @@
     overflow: hidden;
   }
 
-
-
   .dict-group-title {
     font-size: 18px;
     margin: 0;
