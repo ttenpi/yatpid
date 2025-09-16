@@ -17,6 +17,7 @@
   .dict-group {
     border: 2px solid var(--color);
     border-radius: var(--radius);
+    overflow: hidden;
   }
 
   .dict-group:nth-of-type(15n+1) {

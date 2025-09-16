@@ -1,5 +1,5 @@
 :root {
-  --radius: 8px;
+  --radius: 14px;
 
   --ratio: 1.5;
   --s-5: calc(var(--s-4) / var(--ratio));
