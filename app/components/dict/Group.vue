@@ -21,9 +21,9 @@
   }
 
   .dict-group-title {
-    font-size: 18px;
+    font-size: 1.4rem;
     margin: 0;
-    padding: var(--s-4);
+    padding: var(--s-5) var(--s-3) var(--s-3);
     background-color: var(--color, black);
     text-align: center;
     color: var(--c-bg);
@@ -32,7 +32,7 @@
   .dict-group-contents {
     display: flex;
     flex-direction: column;
-    gap: var(--s-4);
+    gap: var(--s-5);
     padding: var(--s-3);
   }
 </style>
