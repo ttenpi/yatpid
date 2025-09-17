@@ -1,24 +1,21 @@
 <template>
   <div>
-    <p v-if="status === 'pending'">Loading...</p>
-    <p v-else-if="status === 'error'">Error:
-      <code>{{ error }}</code>
-    </p>
-    <div v-else>
-      <div v-for="(word, key) in dictionary" :key="key">
-        <dl>
-          <dt>
-            <NuxtLink :to="`/${key}`">
-              {{ word.lemma }}
-            </NuxtLink>
-          </dt>
-          <dd
-            v-if="word.definitions && word.definitions.en">
-            {{ word.definitions.en }}
-          </dd>
-        </dl>
-      </div>
-    </div>
+    <DictGroupContainer>
+      <!-- load a DictGroup for each semantic category -->
+      <DictGroup
+        v-for="(category, catIdx) in categories?.semantic?.order"
+        :key="catIdx" :title="category">
+        <!-- use a template v-for wrapper so v-if can reference `word` safely -->
+        <template
+          v-for="(word, wordIdx) in (dictionary || [])"
+          :key="wordIdx">
+          <!-- load a DictEntry if the first semantic category matches -->
+          <DictEntry
+            v-if="word.categories?.semantic && word.categories.semantic[0] === category"
+            :term="word.lemma" />
+        </template>
+      </DictGroup>
+    </DictGroupContainer>
   </div>
 </template>
 
@@ -29,11 +26,25 @@
     definitions?: {
       en?: string
     }
+    categories?: {
+      semantic?: string[]
+    }
+  }
+
+  interface Category {
+    order: string[]
   }
 
   const {
     data: dictionary,
-    status,
-    error,
+    status: dictionaryStatus,
+    error: dictionaryError,
   } = useFetch<Word[]>("/api/dictionary")
+
+  const {
+    data: categories,
+    status: categoriesStatus,
+    error: categoriesError
+  } = useFetch<Record<string, Category>>("/api/categories")
+
 </script>

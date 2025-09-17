@@ -1,4 +1,6 @@
 [categories.usage]
+name.en = "usage"
+name.nl = "gebruik"
 order = ["core", "common", "uncommon", "obscure"]
 description.en = "Usage categories by lipu Linku"
 description.nl = "Gebruikscategorieën per lipu Linku"
@@ -14,6 +16,8 @@ uncommon = "ongebruikelijk"
 obscure = "zeldzaam"
 
 [categories.semantic]
+name.en = "semantic"
+name.nl = "semantisch"
 order = ["body", "people", "necessities", "critters", "sight", "state", "activity", "elements", "things", "ideas", "locating", "descriptions", "counting", "connection", "evoke"]
 description.en = "Categories of words grouped by themes or semantic fields"
 description.nl = "Categorieën van woorden gegroepeerd op thema of semantische velden"

@@ -1,8 +1,7 @@
 <template>
   <div>
     <div v-if="wordData" class="dict-entry">
-      <div v-if="wordData.sitelenpona"
-        lang="tok-x-stlnpona"
+      <div v-if="wordData.sitelenpona" lang="tok-x-stlnpona"
         class="term-sitelenpona">
         {{ wordData.sitelenpona[0] }}
       </div>
@@ -28,13 +27,28 @@
       </dl>
     </div>
 
-    <!-- fallback -->
-    <div v-else class="dict-entry loading">
+    <!-- loading fallback -->
+    <div v-else-if="wordStatus === 'pending'"
+      class="dict-entry loading">
+      <div class="term-sitelenpona"></div>
+      <dl>
+        <dt class="term-lemma loading">
+          <NuxtLink :to="`/${props.term}`">
+            {{ props.term }}
+          </NuxtLink>
+        </dt>
+        <dd class="term-definition-loading">[loading...]
+        </dd>
+      </dl>
+    </div>
+
+    <!-- error fallback -->
+    <div v-else-if="wordError" class="dict-entry error">
       <div class="term-sitelenpona">
         ❔
       </div>
       <dl>
-        <dt class="term-lemma loading">
+        <dt class="term-lemma error">
           <NuxtLink :to="`/${props.term}`">
             {{ props.term }}
           </NuxtLink>
@@ -60,7 +74,11 @@
     }
   }
 
-  const { data: wordData } = useFetch<Word>(`/api/dictionary?word=${props.term}`)
+  const {
+    data: wordData,
+    status: wordStatus,
+    error: wordError
+  } = useFetch<Word>(`/api/dictionary?word=${props.term}`)
 </script>
 
 <style>
@@ -77,6 +95,10 @@
   }
 
   .term-lemma.loading {
+    opacity: 0.5;
+  }
+
+  .term-lemma.error {
     color: var(--c-danger);
   }
 

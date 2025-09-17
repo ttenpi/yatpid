@@ -8,7 +8,7 @@
   .dict-groupContainer {
     column-count: auto;
     column-fill: balance;
-    column-width: 310px;
+    column-width: 300px;
     column-gap: var(--s-2);
   }
 

@@ -5,11 +5,11 @@
   <hr />
   <h1>{{ wordData ? wordData.lemma : route.params.word }}
   </h1>
-  <p v-if="status === 'pending'">Loading...</p>
-  <div v-if="error">
+  <p v-if="wordStatus === 'pending'">Loading...</p>
+  <div v-if="wordError">
     <p><strong>Word not found</strong></p>
     <p>
-      Error: <code>{{ error }}</code>
+      Error: <code>{{ wordError }}</code>
     </p>
   </div>
   <div v-else-if="wordData">
@@ -48,7 +48,7 @@
   const route = useRoute()
   const {
     data: wordData,
-    status,
-    error,
+    status: wordStatus,
+    error: wordError,
   } = useFetch<WordData>(`/api/dictionary?word=${route.params.word}`)
 </script>
