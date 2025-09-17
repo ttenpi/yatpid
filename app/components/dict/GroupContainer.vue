@@ -6,9 +6,18 @@
 
 <style>
   .dict-groupContainer {
-    display: flex;
-    gap: var(--s-2);
-    flex-direction: column;
+    column-count: auto;
+    column-fill: balance;
+    column-width: 310px;
+    column-gap: var(--s-2);
+  }
+
+  .dict-group {
+    break-inside: avoid;
+  }
+
+  .dict-group + .dict-group {
+    margin-top: var(--s-2);
   }
 
   .dict-group:nth-of-type(15n+1) {
