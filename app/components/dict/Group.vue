@@ -1,5 +1,6 @@
 <template>
-  <section class="dict-group">
+  <section class="dict-group" :id="'semantic-' +
+    props.title">
     <h2 class="dict-group-title">{{ props.title }}</h2>
     <div class="dict-group-contents">
       <slot />
