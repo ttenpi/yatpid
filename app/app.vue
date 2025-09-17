@@ -5,10 +5,10 @@
 </template>
 
 <style>
-  :root {
+  /* :root {
     scrollbar-width: thin;
     scrollbar-color: var(--color-primary) var(--ctp-subtext0);
-  }
+  } */
 
   body {
     background: var(--ctp-crust);
