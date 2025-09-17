@@ -10,9 +10,7 @@ export default defineNuxtConfig({
     classSuffix: "-theme",
   },
   fonts: {
-    experimental: {
-      processCSSVariables: true,
-    },
+    processCSSVariables: true,
     priority: ["fontshare", "bunny"],
     providers: {
       google: false,
