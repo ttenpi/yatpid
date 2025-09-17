@@ -86,7 +86,7 @@
     line-height: 1.2;
     display: flex;
     flex-direction: row;
-    gap: var(--s-3);
+    gap: var(--s-2);
   }
 
   .term-lemma {
@@ -104,7 +104,7 @@
 
   .term-sitelenpona {
     font-size: 2.3rem;
-    width: 1em;
+    min-width: var(--s2);
     text-align: center;
   }
 </style>

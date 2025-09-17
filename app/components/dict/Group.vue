@@ -1,9 +1,9 @@
 <template>
   <section class="dict-group">
     <h2 class="dict-group-title">{{ props.title }}</h2>
-    <li class="dict-group-contents">
+    <div class="dict-group-contents">
       <slot />
-    </li>
+    </div>
   </section>
 </template>
 
@@ -30,8 +30,9 @@
   }
 
   .dict-group-contents {
-    list-style: none;
-    margin: 0;
-    padding: 0.1em;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+    padding: var(--s-3);
   }
 </style>
