@@ -3,7 +3,7 @@ import path, { join } from 'path'
 import toml from '@iarna/toml'
 
 export default function multiTomlLoader(dir: string): any {
-  const filePath = path.resolve('server/data', dir)
+  const filePath = path.resolve('data', dir)
   const files = readdirSync(filePath).filter(f => f.endsWith('.toml'))
 
   if (dir === 'words') {
