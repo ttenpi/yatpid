@@ -1,7 +1,5 @@
-import tomlLoader from "~/utils/toml-loader"
+import multiTomlLoader from "../utils/multi-toml-loader"
 
 export default defineEventHandler(async (event) => {
-  const data = tomlLoader("dataset.toml")
-
-  return data.categories
+  return multiTomlLoader("categories")
 })

@@ -23,7 +23,10 @@
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@nuxt/icon": "^2.0.0"
+    "@nuxt/icon": "^2.0.0",
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2",
+    "vue-tsc": "^3.0.7"
   },
   "trustedDependencies": [
     "@parcel/watcher"
