@@ -21,8 +21,10 @@
         </li>
         <li>
           <NuxtLink
-            to="https://github.com/ttenpi/yatpid/blob/main/app/assets/data/dataset.toml">
-            Dataset</NuxtLink> (<NuxtLink to=""><abbr
+            to="https://github.com/ttenpi/yatpid-dataset/tree/main">
+            Dataset</NuxtLink> (<NuxtLink
+            to="https://github.com/ttenpi/yatpid-dataset/blob/main/LICENSE">
+            <abbr
               title="Dataset licensed under CC0 1.0 Universal">CC0</abbr>
           </NuxtLink>)
         </li>
