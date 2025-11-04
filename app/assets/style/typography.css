@@ -44,7 +44,7 @@ h3,
 h4,
 .font-display {
   color: var(--color-primary);
-  font-weight: 666;
+  font-weight: bold;
   line-height: 1.2;
   text-wrap: balance;
 }
