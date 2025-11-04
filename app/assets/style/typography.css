@@ -2,7 +2,7 @@
   --measure: 70ch;
   --font-size-adapt: 0.333vw;
   --line-height: 1.4;
-  --font-body: "figtree variable", "figtree", sans-serif;
+  --font-body: "Figtree", sans-serif;
   --font-tp: "nishiki-teki-lili";
   font-size: var(--s0);
 }
